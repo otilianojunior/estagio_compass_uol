@@ -42,7 +42,7 @@ Além da minha experiência profissional, tenho me dedicado a ampliar meus conhe
 
 - Metodologias Ágeis
 - Linux
-- GitHub
+- Git
 - Python
 - FastApi
 
