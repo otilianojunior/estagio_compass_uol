@@ -14,7 +14,7 @@ O objetivo principal da Sprint 1 foi promover o nivelamento do conhecimento da e
 **2. Apresentação Pessoal e Curriculo:**
 
 * Elaboração de uma apresentação individual para introduzir-se aos stakeholders e destacar habilidades relevantes.✅
-* Construção de um currículo atualizado e personalizado, evidenciando experiências e qualificações para o projeto.
+* Construção de um currículo atualizado e personalizado, evidenciando experiências e qualificações.✅
 
 **3. Estruturação do Projeto:**
 
@@ -32,7 +32,7 @@ O objetivo principal da Sprint 1 foi promover o nivelamento do conhecimento da e
 **2. Desenvolvimento do Script `processamento_de_vendas.sh`:**
 
 * Criar um script executável nomeado `processamento_de_vendas.sh` para automatizar as tarefas do desafio.✅
-* O script deve utilizar comandos Linux para executar as seguintes ações:✅
+* O script deve utilizar comandos Linux para executar as seguintes ações:
     1. Criar um diretório chamado `vendas`.✅
     2. Dentro do diretório `vendas`, criar um subdiretório chamado `backup`.✅
     3. Copiar o arquivo `dados_de_vendas.csv` para o diretório `backup`.✅
@@ -42,7 +42,7 @@ O objetivo principal da Sprint 1 foi promover o nivelamento do conhecimento da e
 **3. Geração de Relatórios:**
 
 * Criar um arquivo `relatorio.txt` dentro do diretório `backup`.✅
-* O conteúdo do `relatorio.txt` deve incluir:✅
+* O conteúdo do `relatorio.txt` deve incluir:
     1. Data e hora do sistema operacional no formato `yyyy/mm/dd HH:mm`.✅
     2. Primeiro registro contido no arquivo `backup-dados-<yyyymmdd>.csv`.✅
     3. Data do último registro contido no arquivo `backup-dados-<yyyymmdd>.csv`.✅
@@ -64,13 +64,33 @@ O objetivo principal da Sprint 1 foi promover o nivelamento do conhecimento da e
 * Criar um novo script executável chamado `consolidador_de_processamento_de_vendas.sh` para unir os relatórios gerados em um único arquivo.✅
 * Executar o script `consolidador_de_processamento_de_vendas.sh` manualmente para gerar o relatório final consolidado.✅
 
-### Evidencias
+### Evidências
 
-* Os scripts de execução (`processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`) e arquivos gerados podem ser encontrados na pasta `etapa-2`.
-* Os demais arquivos e imagens relacionados ao desafio estão na pasta `evidencias`.
+**Localização dos Arquivos:**
 
+* **Scripts e Arquivos Gerados:** Os scripts de execução (`processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`) e os arquivos gerados durante o desafio podem ser encontrados na pasta `etapa-2`.
+* **Arquivos Adicionais:** Os demais arquivos e imagens relacionados ao desafio estão organizados na pasta `evidencias`.
 
+**Modelos de Dados:**
 
+* Os arquivos `dados_de_vendas_2.csv` e `dados_de_vendas_3.csv` foram utilizados como modelos de dados para o desenvolvimento das tarefas do desafio.
+
+**Evidências Visuais:**
+
+* **Figura 1: Agendamento de Tarefas com Crontab:** A figura `figura-1.png` ilustra a execução do comando `crontab -e` para acessar o editor de agendamentos de tarefas do cron no Linux.
+* **Figura 2: Comando de Agendamento:** A figura `figura-2.png` mostra o comando utilizado para agendar a execução do script `processamento_de_vendas.sh` de segunda a quinta-feira às 15:27. A sintaxe do comando é:
+
+```
+27 15 * * 1-4 ~/Documentos/CompassUol/estagio_compass_uol/sprint-1/desafio/etapa-2/processamento_de_vendas.sh
+```
+
+* **Figura 3: Execução do Script de Consolidação:** A figura `figura-3.png` demonstra a execução do script `consolidador_de_processamento_de_vendas.sh` para gerar o relatório final consolidado.
+* **Figura 4: Concessão de Permissões de Execução:** A figura `figura-4.png` apresenta o comando utilizado para conceder permissões de execução aos scripts `processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`. A sintaxe dos comandos é:
+
+```
+sudo chmod +x processamento_de_vendas.sh
+sudo chmod +x consolidador_de_processamento_de_vendas.sh
+```
 
 ### Certificados
 
