@@ -1,43 +1,78 @@
+## Sprint 1: Nivelamento de Conhecimento (Markdown Aprimorado)
 
-# Instruções
+### Objetivo
 
-Neste arquivo você irá apresentar suas entregas da Sprint corrente. Observe que existem 4 diretórios no exemplo: **exercícios**, **certificados** e **evidências**.
+O objetivo principal da Sprint 1 foi promover o nivelamento do conhecimento da equipe em ferramentas e metodologias essenciais para o desenvolvimento do projeto.
 
- - O diretório **exercícios** corresponde ao local onde você irá adicionar o código-fonte das atividades de codificação da Sprint, quando houver.
- - O diretório **evidências** você pode utilizar para adicionar imagens demonstrando a execução/resultados de atividades, quando necessário.
- - O diretório **certificados** é o local onde você irá armazenar os certificados dos cursos solicitados durante a sprint. O nome de cada certificado de corresponder ao título do curso.
- - O diretório **desafio** é o local onde você irá armazenar a resolução do que se pede no desafio, todos recursos que você considerar importante deverá está dentro desse diretório.
+### Primeira Etapa: Familiarização com Ferramentas Básicas
 
-Utilize o arquivo README.md da Sprint para organizar todas as suas entregas. Faça referência aos arquivos de código-fonte. Evite colocar código diretamente no Markdown pois dificulta nossa avaliação.
+**1. Domínio do Git e Markdown:**
 
+* Aprofundamento no uso do Git para inicialização e gerenciamento do repositório do projeto.
+* Criação e aprimoramento do arquivo README.md utilizando Markdown para documentar as etapas do projeto de forma clara e concisa.
 
-# Exercícios
+**2. Apresentação Pessoal e Curriculo:**
 
+* Elaboração de uma apresentação individual para introduzir-se aos stakeholders e destacar habilidades relevantes.
+* Construção de um currículo atualizado e personalizado, evidenciando experiências e qualificações para o projeto.
 
-1. ...
-[Resposta Ex1.](exercicios/ex1.txt)
+**3. Estruturação do Projeto:**
 
+* Adoção de um template pré-definido para organizar o projeto em sprints, facilitando a navegação e acompanhamento do progresso.
 
-2. ...
-[Resposta Ex2.](exercicios/ex2.txt)
+### Segunda Etapa: Dominando Habilidades em Linux e Markdown
 
+**1. Desafio Prático com Comandos Linux e Markdown:**
 
+* **Download do Arquivo:** Baixar o arquivo `dados_de_vendas.csv` para iniciar o desafio prático.
+* **Criação da Estrutura de Diretórios:**
+    * Criar um diretório principal chamado `ecommerce` no sistema Linux.
+    * Dentro do diretório `ecommerce`, inserir o arquivo `dados_de_vendas.csv`.
 
+**2. Desenvolvimento do Script `processamento_de_vendas.sh`:**
 
-# Evidências
+* Criar um script executável nomeado `processamento_de_vendas.sh` para automatizar as tarefas do desafio.
+* O script deve utilizar comandos Linux para executar as seguintes ações:
+    1. Criar um diretório chamado `vendas`.
+    2. Dentro do diretório `vendas`, criar um subdiretório chamado `backup`.
+    3. Copiar o arquivo `dados_de_vendas.csv` para o diretório `backup`.
+    4. Renomear o arquivo copiado no diretório `vendas` no formato `dados-yyyymmdd.csv`, utilizando a data atual.
+    5. Dentro do diretório `backup`, renomear o arquivo para `backup-dados-<yyyymmdd>.csv`.
 
+**3. Geração de Relatórios:**
 
-Ao executar o código do exercício ... observei que ... conforme podemos ver na imagem a seguir:
+* Criar um arquivo `relatorio.txt` dentro do diretório `backup`.
+* O conteúdo do `relatorio.txt` deve incluir:
+    1. Data e hora do sistema operacional no formato `yyyy/mm/dd HH:mm`.
+    2. Primeiro registro contido no arquivo `backup-dados-<yyyymmdd>.csv`.
+    3. Data do último registro contido no arquivo `backup-dados-<yyyymmdd>.csv`.
+    4. Quantidade total de itens diferentes vendidos.
+    5. Os 10 primeiros registros do arquivo `backup-dados-<yyyymmdd>.csv`.
 
+**4. Limpeza e Compactação:**
 
-![Evidencia 1](evidencias/sample.webp)
+* Compactar o arquivo `backup-dados-<yyyymmdd>.csv` utilizando o comando `zip` e alterar seu nome para `backup-dados-yyyymmdd.zip`.
+* Remover o arquivo original `backup-dados-<yyyymmdd>.csv` da pasta backup e o arquivo `dados_de_vendas.csv` da pasta `vendas`.
 
+**5. Agendamento Automático:**
 
+* Criar uma rotina utilizando o cron para executar o script `processamento_de_vendas.sh` automaticamente de segunda a quinta-feira às 15:27.
 
-# Certificados
+**6. Geração de Relatórios Consolidados:**
 
+* Modificar o conteúdo do arquivo `dados_de_vendas.csv` uma vez por dia para gerar diferentes relatórios.
+* Criar um novo script executável chamado `consolidador_de_processamento_de_vendas.sh` para unir os relatórios gerados em um único arquivo.
+* Executar o script `consolidador_de_processamento_de_vendas.sh` manualmente para gerar o relatório final consolidado.
 
-- Certificado do Curso ABC
-![Curso ABC](certificados/sample.png)
+### Observações
+
+* Os scripts de execução (`processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`) e arquivos gerados podem ser encontrados na pasta `etapa-2`.
+* Os demais arquivos e imagens relacionados ao desafio estão na pasta `assets` dentro do diretório `desafio`.
+
+### Certificados
+
+![Certificado Métodologias Ágeis de A a Z](certificados/certificado-metodologias-ageis.jpg)
+![Certtificado Linux para Desenvolvedores](certificados/certificado-linux-desenvolvedores.jpg)
+![Certificado Git e Github do Báscio ao Avançado](certificados/certificado-git-github.jpg)
 
 

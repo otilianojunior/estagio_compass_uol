@@ -59,7 +59,7 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - Métodos ágeis de A a Z: o curso completo ✅
 - Curso: Fundamento da Segurança da Informação (Programa de Bolsas)
 
-1. [Sprint 1](Sprint%201/README.md)
+1. [Sprint 1](sprint-1/README.md)
 
 - Data & Analytics - PB - AWS - Novo -1/10 ✅
 - Linux para Desenvolvedores (c/ terminal, Shell, Apache e +) ✅
