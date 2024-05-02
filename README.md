@@ -7,7 +7,7 @@
 
 ## Apresentação
 
-Olá! 👋 Meu nome é Otiliano Júnior e estudo bacharelado em Sistemas de Informação (BSI) no Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA), localizado em Vitória da Conquista, Bahia. Atualmente estou no 7º semestre e faltam apenas algumas matérias para me formar.
+Olá! 👋 Meu nome é Otiliano Júnior e estudo bacharelado em Sistemas de Informação (BSI) no Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA), localizado em Vitória da Conquista, Bahia.Atualmente estou no 7º semestre e faltam apenas algumas matérias para me formar. Além dos meus estudos, tenho alguns hobbies aos quais gosto de dedicar tempo quando estou livre. Gosto de pedalar e caminhar ao ar livre, além de apreciar jogos, especialmente os 2D e aqueles com campanhas marcantes. Também sou apaixonado por música e tento tocar violão nas horas vagas. Além disso, acompanho o desenvolvimento e utilização de novas IA's por pesquisadores e entusiastas.
 
 ### Experiência Profissional
 
