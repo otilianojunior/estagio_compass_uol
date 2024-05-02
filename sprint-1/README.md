@@ -68,8 +68,8 @@ O objetivo principal da Sprint 1 foi promover o nivelamento do conhecimento da e
 
 **Localização dos Arquivos:**
 
-* **Scripts e Arquivos Gerados:** Os scripts de execução (`processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`) e os arquivos gerados durante o desafio podem ser encontrados na pasta [Etapa 2](desafio/etapa-2).
-* **Arquivos Adicionais:** Os demais arquivos e imagens relacionados ao desafio estão organizados na pasta [Evidencias](evidencias).
+* **Scripts e Arquivos Gerados:** Os scripts de execução (`processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`) e os arquivos gerados durante o desafio podem ser encontrados na pasta [etapa-2](desafio/etapa-2).
+* **Arquivos Adicionais:** Os demais arquivos e imagens relacionados ao desafio estão organizados na pasta [evidencias](evidencias).
 
 **Modelos de Dados:**
 
@@ -94,8 +94,8 @@ sudo chmod +x consolidador_de_processamento_de_vendas.sh
 
 ### Certificados
 
-[Certificado Métodologias Ágeis de A a Z](certificados/certificado-metodologias-ageis.jpg)
-[Certtificado Linux para Desenvolvedores](certificados/certificado-linux-desenvolvedores.jpg)
-[Certificado Git e Github do Báscio ao Avançado](certificados/certificado-git-github.jpg)
+- [Certificado Métodologias Ágeis de A a Z](certificados/certificado-metodologias-ageis.jpg)
+- [Certtificado Linux para Desenvolvedores](certificados/certificado-linux-desenvolvedores.jpg)
+- [Certificado Git e Github do Báscio ao Avançado](certificados/certificado-git-github.jpg)
 
 
