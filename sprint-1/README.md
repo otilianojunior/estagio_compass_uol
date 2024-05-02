@@ -1,4 +1,4 @@
-## Sprint 1: Nivelamento de Conhecimento (Markdown Aprimorado)
+## Sprint 1: Nivelamento de Conhecimento
 
 ### Objetivo
 
@@ -68,24 +68,24 @@ O objetivo principal da Sprint 1 foi promover o nivelamento do conhecimento da e
 
 **Localização dos Arquivos:**
 
-* **Scripts e Arquivos Gerados:** Os scripts de execução (`processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`) e os arquivos gerados durante o desafio podem ser encontrados na pasta `etapa-2`.
-* **Arquivos Adicionais:** Os demais arquivos e imagens relacionados ao desafio estão organizados na pasta `evidencias`.
+* **Scripts e Arquivos Gerados:** Os scripts de execução (`processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`) e os arquivos gerados durante o desafio podem ser encontrados na pasta [Etapa 2](desafio/etapa-2).
+* **Arquivos Adicionais:** Os demais arquivos e imagens relacionados ao desafio estão organizados na pasta [Evidencias](evidencias).
 
 **Modelos de Dados:**
 
-* Os arquivos `dados_de_vendas_2.csv` e `dados_de_vendas_3.csv` foram utilizados como modelos de dados para o desenvolvimento das tarefas do desafio.
+* Os arquivos [dados_de_vendas_2.csv](evidencias/dados_de_vendas_2.csv) e [dados_de_vendas_3.csv](evidencias/dados_de_vendas_3.csv) foram utilizados como modelos de dados para o desenvolvimento das tarefas do desafio.
 
 **Evidências Visuais:**
 
-* **Figura 1: Agendamento de Tarefas com Crontab:** A figura `figura-1.png` ilustra a execução do comando `crontab -e` para acessar o editor de agendamentos de tarefas do cron no Linux.
-* **Figura 2: Comando de Agendamento:** A figura `figura-2.png` mostra o comando utilizado para agendar a execução do script `processamento_de_vendas.sh` de segunda a quinta-feira às 15:27. A sintaxe do comando é:
+* **Figura 1: Agendamento de Tarefas com Crontab:** A figura [figura-1.png](evidencias/figura-1.png) ilustra a execução do comando `crontab -e` para acessar o editor de agendamentos de tarefas do cron no Linux.
+* **Figura 2: Comando de Agendamento:** A figura [figura-2.png](evidencias/figura-2.png) mostra o comando utilizado para agendar a execução do script `processamento_de_vendas.sh` de segunda a quinta-feira às 15:27. A sintaxe do comando é:
 
 ```
 27 15 * * 1-4 ~/Documentos/CompassUol/estagio_compass_uol/sprint-1/desafio/etapa-2/processamento_de_vendas.sh
 ```
 
-* **Figura 3: Execução do Script de Consolidação:** A figura `figura-3.png` demonstra a execução do script `consolidador_de_processamento_de_vendas.sh` para gerar o relatório final consolidado.
-* **Figura 4: Concessão de Permissões de Execução:** A figura `figura-4.png` apresenta o comando utilizado para conceder permissões de execução aos scripts `processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`. A sintaxe dos comandos é:
+* **Figura 3: Execução do Script de Consolidação:** A figura [figura-3.png](evidencias/figura-3.png) demonstra a execução do script `consolidador_de_processamento_de_vendas.sh` para gerar o relatório final consolidado.
+* **Figura 4: Concessão de Permissões de Execução:** A figura [figura-4.png](evidencias/figura-4.png) apresenta o comando utilizado para conceder permissões de execução aos scripts `processamento_de_vendas.sh` e `consolidador_de_processamento_de_vendas.sh`. A sintaxe dos comandos é:
 
 ```
 sudo chmod +x processamento_de_vendas.sh
@@ -94,8 +94,8 @@ sudo chmod +x consolidador_de_processamento_de_vendas.sh
 
 ### Certificados
 
-![Certificado Métodologias Ágeis de A a Z](certificados/certificado-metodologias-ageis.jpg)
-![Certtificado Linux para Desenvolvedores](certificados/certificado-linux-desenvolvedores.jpg)
-![Certificado Git e Github do Báscio ao Avançado](certificados/certificado-git-github.jpg)
+[Certificado Métodologias Ágeis de A a Z](certificados/certificado-metodologias-ageis.jpg)
+[Certtificado Linux para Desenvolvedores](certificados/certificado-linux-desenvolvedores.jpg)
+[Certificado Git e Github do Báscio ao Avançado](certificados/certificado-git-github.jpg)
 
 
