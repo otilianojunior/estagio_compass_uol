@@ -1,5 +1,3 @@
-#!/bin/bash
-
 # caminho para a pasta onde os relatórios estão
 caminho_relatorios=~/Documentos/CompassUol/estagio_compass_uol/sprint-1/desafio/etapa-2/ecommerce/vendas/backup
 
