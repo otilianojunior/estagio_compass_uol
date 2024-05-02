@@ -7,13 +7,13 @@
 
 ## Apresentação
 
-Olá! 👋 Meu nome é ***Otiliano Júnior*** e sou estudante do ***bacharelado em Sistemas de Informação*** (BSI) no ***Instituto Federal de Educação, Ciência e Tecnologia da Bahia*** (IFBA), na cidade de ***Vitória da Conquista, Bahia***. Estou atualmente no ***7º*** semestre, faltando apenas algumas matérias para me formar.
+Olá! 👋 Meu nome é Otiliano Júnior e estudo bacharelado em Sistemas de Informação (BSI) no Instituto Federal de Educação, Ciência e Tecnologia da Bahia (IFBA), localizado em Vitória da Conquista, Bahia. Atualmente estou no 7º semestre e faltam apenas algumas matérias para me formar.
 
 ### Experiência Profissional
 
 Anteriormente, trabalhei como desenvolvedor em uma empresa, onde tive a oportunidade de participar em diversos projetos desafiadores, incluindo:
 
-#### Desenvolvimento de Software
+####  ➡️ Desenvolvimento de Software
 
 Contribuí em um projeto de construção de software do 0 desde a fase de levantamento de requesitos até a entrega do projeto, nesse projeto foi escolhido que os desenvolvedores entregariam o projeto por modelos, onde utilizei:
 
@@ -24,7 +24,7 @@ Contribuí em um projeto de construção de software do 0 desde a fase de levant
  - CSS;
  - BitBucket;
 
-#### Coleta e Análise de Dados
+#### ➡️ Coleta e Análise de Dados
 
 Automatizando processos em sites públicos para coletar e analisar os dados:
 
@@ -54,7 +54,7 @@ Atualmente, estou expandindo minha expertise em:
 
 Aqui vou documentar minhas atividades e progresso durante as sprints de desenvolvimento. Fique à vontade para acompanhar meu trabalho e contribuir com feedbacks e sugestões! 🚀
 
-1. [Sprint 0]
+0. Sprint 0
 
 - Métodos ágeis de A a Z: o curso completo ✅
 - Curso: Fundamento da Segurança da Informação (Programa de Bolsas)
