@@ -1,5 +1,5 @@
 # caminho para a pasta onde os relatórios estão
-caminho_relatorios=~/Documentos/CompassUol/estagio_compass_uol/sprint-1/desafio/etapa-2/ecommerce/vendas/backup
+caminho_relatorios=ecommerce/vendas/backup
 
 # caminho para o arquivo relatorio_final.txt
 relatorio_final=$caminho_relatorios/relatorio_final.txt
