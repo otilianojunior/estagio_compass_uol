@@ -34,7 +34,6 @@ sudo apt install zip
 
     ```
     sudo chmod +x processamento_de_vendas.sh
-
     ```
 
    Este script irá ler os arquivos `dados_de_vendas.csv` presentes no diretório `etapa-2/ecommerce` e processá-los de acordo com as regras do desafio.
@@ -51,7 +50,6 @@ sudo apt install zip
 
     ```
     sudo chmod +x consolidador_de_processamento_de_vendas.sh
-
     ```
 
    Este script irá consolidar os dados processados e gerar o arquivos `relatorio_final.txt` dentro da pasta ecommerce/vendas/backup.
@@ -71,6 +69,6 @@ sudo apt install zip
 
 **Conclusão:**
 
-Ao seguir estas instruções cuidadosamente, você deverá conseguir concluir o desafio da mesma forma que eu contrui.
+Ao seguir estas instruções cuidadosamente, você deverá conseguir concluir o desafio da mesma forma que eu.
 
 
