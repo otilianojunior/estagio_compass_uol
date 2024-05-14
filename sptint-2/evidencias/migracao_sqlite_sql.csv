@@ -1,0 +1,27 @@
+"idLocacao","idCliente","nomeCliente","cidadeCliente","estadoCliente","paisCliente","idCarro","kmCarro","classiCarro","marcaCarro","modeloCarro","anoCarro","idcombustivel","tipoCombustivel","dataLocacao","horaLocacao","qtdDiaria","vlrDiaria","dataEntrega","horaEntrega","idVendedor","nomeVendedor","sexoVendedor","estadoVendedor"
+1,2,Cliente dois,São Paulo,São Paulo,Brasil,98,25412,AKJHKN98JY76539,Fiat,Fiat Uno,2000,1,Gasolina,20.150.110,"10:00",2,100,20.150.112,"10:00",5,Vendedor cinco,0,São Paulo
+2,2,Cliente dois,São Paulo,São Paulo,Brasil,98,29450,AKJHKN98JY76539,Fiat,Fiat Uno,2000,1,Gasolina,20.150.210,"12:00",2,100,20.150.212,"12:00",5,Vendedor cinco,0,São Paulo
+3,3,Cliente tres,Rio de Janeiro,Rio de Janeiro,Brasil,99,20000,IKJHKN98JY76539,Fiat,Fiat Palio,2010,1,Gasolina,20.150.213,"12:00",2,150,20.150.215,"12:00",6,Vendedora seis,1,São Paulo
+4,4,Cliente quatro,Rio de Janeiro,Rio de Janeiro,Brasil,99,21000,IKJHKN98JY76539,Fiat,Fiat Palio,2010,1,Gasolina,20.150.215,"13:00",5,150,20.150.220,"13:00",6,Vendedora seis,1,São Paulo
+5,4,Cliente quatro,Rio de Janeiro,Rio de Janeiro,Brasil,99,21700,IKJHKN98JY76539,Fiat,Fiat Palio,2010,1,Gasolina,20.150.302,"14:00",5,150,20.150.307,"14:00",7,Vendedora sete,1,Rio de Janeiro
+6,6,Cliente seis,Belo Horizonte,Minas Gerais,Brasil,3,121700,DKSHKNS8JS76S39,VW,Fusca 78,1978,1,Gasolina,20.160.302,"14:00",10,250,20.160.312,"14:00",8,Vendedora oito,1,Minas Gerais
+7,6,Cliente seis,Belo Horizonte,Minas Gerais,Brasil,3,131800,DKSHKNS8JS76S39,VW,Fusca 78,1978,1,Gasolina,20.160.802,"14:00",10,250,20.160.812,"14:00",8,Vendedora oito,1,Minas Gerais
+8,4,Cliente quatro,Rio de Janeiro,Rio de Janeiro,Brasil,3,151800,DKSHKNS8JS76S39,VW,Fusca 78,1978,1,Gasolina,20.170.102,"18:00",10,250,20.170.112,"18:00",6,Vendedora seis,1,São Paulo
+9,4,Cliente quatro,Rio de Janeiro,Rio de Janeiro,Brasil,3,152800,DKSHKNS8JS76S39,VW,Fusca 78,1978,1,Gasolina,20.180.102,"18:00",10,280,20.180.112,"18:00",6,Vendedora seis,1,São Paulo
+10,10,Cliente dez,Rio Branco,Acre,Brasil,10,211800,LKIUNS8JS76S39,Fiat,Fiat 147,1996,1,Gasolina,20.180.302,"18:00",10,50,20.180.312,"18:00",16,Vendedor dezesseis,0,Amazonas
+11,20,Cliente vinte,Macapá,Amapá,Brasil,7,212800,SSIUNS8JS76S39,Fiat,Fiat 147,1996,1,Gasolina,20.180.401,"11:00",10,50,20.180.411,"11:00",16,Vendedor dezesseis,0,Amazonas
+12,20,Cliente vinte,Macapá,Amapá,Brasil,6,21800,SKIUNS8JS76S39,Nissan,Versa,2019,1,Gasolina,20.200.401,"11:00",10,150,20.200.411,"11:00",16,Vendedor dezesseis,0,Amazonas
+13,22,Cliente vinte e dois,Porto Alegre,Rio Grande do Sul,Brasil,2,10000,AKIUNS1JS76S39,Nissan,Versa,2019,2,Etanol,20.220.501,"8:00",20,150,20.220.521,"18:00",30,Vendedor trinta,0,Rio Grande do Sul
+14,22,Cliente vinte e dois,Porto Alegre,Rio Grande do Sul,Brasil,2,20000,AKIUNS1JS76S39,Nissan,Versa,2019,2,Etanol,20.220.601,"8:00",20,150,20.220.621,"18:00",30,Vendedor trinta,0,Rio Grande do Sul
+15,22,Cliente vinte e dois,Porto Alegre,Rio Grande do Sul,Brasil,2,30000,AKIUNS1JS76S39,Nissan,Versa,2019,2,Etanol,20.220.701,"8:00",20,150,20.220.721,"18:00",30,Vendedor trinta,0,Rio Grande do Sul
+16,22,Cliente vinte e dois,Porto Alegre,Rio Grande do Sul,Brasil,2,40000,AKIUNS1JS76S39,Nissan,Versa,2019,2,Etanol,20.220.801,"8:00",20,150,20.220.721,"18:00",30,Vendedor trinta,0,Rio Grande do Sul
+17,23,Cliente vinte e tres,Eusébio,Ceará,Brasil,4,55000,LLLUNS1JS76S39,Nissan,Versa,2020,2,Etanol,20.220.901,"8:00",20,150,20.220.921,"18:00",31,Vendedor trinta e um,0,Ceará
+18,23,Cliente vinte e tres,Eusébio,Ceará,Brasil,4,56000,LLLUNS1JS76S39,Nissan,Versa,2020,2,Etanol,20.221.001,"8:00",20,150,20.221.021,"18:00",31,Vendedor trinta e um,0,Ceará
+19,23,Cliente vinte e tres,Eusébio,Ceará,Brasil,4,58000,LLLUNS1JS76S39,Nissan,Versa,2020,2,Etanol,20.221.101,"8:00",20,150,20.221.121,"18:00",31,Vendedor trinta e um,0,Ceará
+20,5,Cliente cinco,Manaus,Amazonas,Brasil,1,1800,AAAKNS8JS76S39,Toyota,Corolla XEI,2023,3,Flex,20.230.102,"18:00",10,880,20.230.112,"18:00",16,Vendedor dezesseis,0,Amazonas
+21,5,Cliente cinco,Manaus,Amazonas,Brasil,1,8500,AAAKNS8JS76S39,Toyota,Corolla XEI,2023,3,Flex,20.230.115,"18:00",10,880,20.230.125,"18:00",16,Vendedor dezesseis,0,Amazonas
+22,26,Cliente vinte e seis,Campo Grande,Mato Grosso do Sul,Brasil,5,28000,MSLUNS1JS76S39,Nissan,Frontier,2022,4,Diesel,20.230.125,"8:00",5,600,20.230.130,"18:00",32,Vendedora trinta e dois,1,Mato Grosso do Sul
+23,26,Cliente vinte e seis,Campo Grande,Mato Grosso do Sul,Brasil,5,38000,MSLUNS1JS76S39,Nissan,Frontier,2022,4,Diesel,20.230.131,"8:00",5,600,20.230.205,"18:00",32,Vendedora trinta e dois,1,Mato Grosso do Sul
+24,26,Cliente vinte e seis,Campo Grande,Mato Grosso do Sul,Brasil,5,48000,MSLUNS1JS76S39,Nissan,Frontier,2022,4,Diesel,20.230.206,"8:00",5,600,20.230.211,"18:00",32,Vendedora trinta e dois,1,Mato Grosso do Sul
+25,26,Cliente vinte e seis,Campo Grande,Mato Grosso do Sul,Brasil,5,68000,MSLUNS1JS76S39,Nissan,Frontier,2022,4,Diesel,20.230.212,"8:00",5,600,20.230.217,"18:00",32,Vendedora trinta e dois,1,Mato Grosso do Sul
+26,26,Cliente vinte e seis,Campo Grande,Mato Grosso do Sul,Brasil,5,78000,MSLUNS1JS76S39,Nissan,Frontier,2022,4,Diesel,20.230.218,"8:00",1,600,20.230.219,"18:00",32,Vendedora trinta e dois,1,Mato Grosso do Sul

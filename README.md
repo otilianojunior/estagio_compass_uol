@@ -66,4 +66,11 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - Git e GitHub do básico ao avançado (c/ gist e GitHub Pages) ✅
 - Data e Analytic - PB - AWS - Novo - 1/10 ✅
 
+2. [Sprint 2](sptint-2/README.md)
+
+- SQL para Análise de Dados: Do básico ao avançado ✅
+- Data & Analytics - PB - AWS - Novo - 2/10 ✅
+- AWS Skill Builder - AWS Partner: Sales Accreditation (Business) (Portuguese) ✅
+- Data & Analytics - PB - AWS - Novo - 2/10 ✅
+
 ___
