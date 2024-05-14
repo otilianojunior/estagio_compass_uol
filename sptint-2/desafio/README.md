@@ -12,24 +12,27 @@ O banco concessionaria.sqlite foi normalizado um processo crucial para organizar
 
 **Modelo Conceitual:**
 
+* O arquivo do brModelo pode ser encontrado aqui:  `concessionaria_conceitual.brM3`: [concessionaria_conceitual.brM3](/sptint-2/evidencias/concessionaria_conceitual.brM3)
 ![concessionaria_conceitual.png](/sptint-2/evidencias/concessionaria_conceitual.png)
 
-* O arquivo do brModelo pode ser encontrado aqui:  `concessionaria_conceitual.brM3`: [concessionaria_conceitual.brM3](/sptint-2/evidencias/concessionaria_conceitual.brM3)
+
 
 
 **Modelo Lógico:**
 
-
+* O arquivo do brModelo pode ser encontrado aqui:  `concessionaria_logico.brM3`: [concessionaria_logico.brM3](/sptint-2/evidencias/concessionaria_logico.brM3)
 ![concessionaria_logico.png](/sptint-2/evidencias/concessionaria_logico.png)
 
-* O arquivo do brModelo pode ser encontrado aqui:  `concessionaria_logico.brM3`: [concessionaria_logico.brM3](/sptint-2/evidencias/concessionaria_logico.brM3)
+
 
 
 **Modelo Físico: Modelagem Relacional**
 
+* O banco concessionaria normalizado pode ser encontrado aqui:  `concessionaria_fisico.sql`: [concessionaria_fisico.sql](/sptint-2/desafio/etapa-1/concessionaria_fisico.sql)
 ![concessionaria_fisico.png](/sptint-2/evidencias/concessionaria_fisico.png)
 
-* O banco concessionaria normalizado pode ser encontrado aqui:  `concessionaria_fisico.sql`: [concessionaria_fisico.sql](/sptint-2/desafio/etapa-1/concessionaria_fisico.sql)
+
+
 
 * Além da construção fizemos a migração do banco concessionaria.sqlite para sql [migracao-sql](/sptint-2/evidencias/migracao_sqlite_sql.csv);
 
@@ -51,7 +54,7 @@ A mudança do modelo relacional para o modelo dimensional representa uma transi�
 * Criação da VIEW dim_carro;
 * Criação da VIEW dim_tempo;
 
-O arquivo de sql do modelo conceitual pode ser encontrado aqui: [concessionaria_dimensional.sql](/sptint-2/desafio/etapa-2/concessionaria_dimensional.sql), e o modelo de explicativo do relacionamento pode ser visto a seguir.
+O arquivo de sql do modelo conceitual pode ser encontrado aqui: [concessionaria_dimensional.sql](/sptint-2/desafio/etapa-2/concessionaria_dimensional.sql), e o modelo explicativo do relacionamento pode ser visto a seguir.
 
 
 ![concessionaria_dimensional.png](/sptint-2/evidencias/concessionaria_dimensional.png)
