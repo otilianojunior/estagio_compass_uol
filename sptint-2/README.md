@@ -58,5 +58,6 @@ O objetivo principal da Sprint 2 foi aprofundar o conhecimento da equipe em banc
 
 - [Certificado SQL para Aálise de Dados](certificados/certificado-sql.jpg)
 - [Certtificado Data & Analytcs 02/10](certificados/certificado-data&analytics-2.jpg)
+- [Certificado AWS Partner: Sales Accreditation](certificados/certificado-AWS-Course-Completion-Certificate.png)
 
 
