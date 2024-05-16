@@ -30,20 +30,6 @@ SELECT DISTINCT
 	
 FROM
     migracao.tb_locacao;
-
--- inserção na tabela quilometragem
-INSERT INTO concessionaria.tb_quilometragem  (
-	km,
-	created_at,
-    fk_carro_id  
-)
-SELECT DISTINCT 
-	kmCarro,
-	NOW(),
-	idCarro
-	
-FROM
-    migracao.tb_locacao;
     
  -- insert cliente
  INSERT INTO concessionaria.tb_cliente  (
@@ -150,6 +136,7 @@ INSERT INTO concessionaria.tb_locacao  (
 	valor_diaria,
 	data_entrega,
 	hora_entrega,
+	km_carro_locacao,
 	fk_cliente_id,
 	fk_carro_id,
 	fk_vendedor_id
@@ -162,6 +149,7 @@ SELECT
 	vlrDiaria,
 	STR_TO_DATE(REPLACE(dataEntrega, '.', ''), '%Y%m%d'),
 	horaEntrega,
+	kmCarro,
 	idCliente,
 	idCarro,
 	idVendedor
