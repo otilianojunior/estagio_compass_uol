@@ -125,8 +125,8 @@ SELECT DISTINCT
 FROM
     migracao.tb_locacao;
     
-    
---Insert locacao
+
+-- Insert locacao
 
 INSERT INTO concessionaria.tb_locacao  (
 	id_locacao,
