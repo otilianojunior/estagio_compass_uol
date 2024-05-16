@@ -29,9 +29,7 @@ CREATE TABLE concessionaria.tb_carro (
     marca_carro VARCHAR(40),
     modelo_carro VARCHAR(40),
     chassi_carro VARCHAR(50),
-    ano_carro VARCHAR(9),
-    fk_combustivel_id INT,
-    CONSTRAINT fk_combustivel FOREIGN KEY (fk_combustivel_id) REFERENCES tb_combustivel (id_combustivel)
+    ano_carro VARCHAR(9)
 );
 
 
