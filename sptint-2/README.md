@@ -4,6 +4,28 @@
 
 O objetivo principal da Sprint 2 foi aprofundar o conhecimento da equipe em bancos de dados SQL, assim como a compreensão de que o modelo relacional é insuficiente quando aplicado ao contexto de Big Data.
 
+## DESAFIO DA SPRINT
+
+### ➡️ Primeira Etapa
+
+**1. Normalização do banco de dados e criação do modelo de dados relacional:**
+
+* Normalização.✅
+* Modelo Relacional.✅
+
+### ➡️ Segunda Etapa
+
+**2. Criação do Modelo Dimensional:**
+
+* Construção do Modelo Dimensional.✅
+
+### Evidências
+
+* **Consultas e Arquivos Gerados:** As consultas feitas para resolução do desafio podem ser encontradas em [etapa-1](desafio/etapa-1) e [etapa-2](desafio/etapa-2), para mais informações consulte o [README](desafio/README.md).
+
+* **Arquivos Adicionais:** Os demais arquivos e imagens relacionados ao desafio estão organizados na pasta [evidencias](evidencias).
+
+
 ### ➡️ Resolução de Execícios
 
 **1. Exercícios resolvidos para aprofundar o uso do SQL**
@@ -32,27 +54,6 @@ O objetivo principal da Sprint 2 foi aprofundar o conhecimento da equipe em banc
     * [Exercício II-ETAPA-I-resposta](exercicios/exercicio-II-etapa-1.csv)
     * [Exercício II-ETAPA-II-resposta](exercicios/exercicio-II-etapa-2.csv)
 
-
-## DESAFIO DA SPRINT
-
-### ➡️ Primeira Etapa
-
-**1. Normalização do banco de dados e criação do modelo de dados relacional:**
-
-* Normalização.✅
-* Modelo Relacional.✅
-
-### ➡️ Segunda Etapa
-
-**2. Criação do Modelo Dimensional:**
-
-* Construção do Modelo Dimensional.✅
-
-### Evidências
-
-* **Consultas e Arquivos Gerados:** As consultas feitas para resolução do desafio podem ser encontradas em [etapa-1](desafio/etapa-1) e [etapa-2](desafio/etapa-2), para mais informações consulte o [README](desafio/README.md).
-
-* **Arquivos Adicionais:** Os demais arquivos e imagens relacionados ao desafio estão organizados na pasta [evidencias](evidencias).
 
 ### Certificados
 

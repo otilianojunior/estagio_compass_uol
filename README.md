@@ -73,4 +73,11 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - AWS Skill Builder - AWS Partner: Sales Accreditation (Business) (Portuguese) ✅
 - Data & Analytics - PB - AWS - Novo - 2/10 ✅
 
+3. [Sprint 3](sptint-3/README.md)
+
+- Python 3 - Curso Completo do Básico ao Avançado ✅
+- Data & Analytics - PB - AWS - Novo - 3/10 ✅
+- AWS Partner: Economias na nuvem AWS ✅
+- Data & Analytics - PB - AWS - Novo - 3/10 ✅
+
 ___
