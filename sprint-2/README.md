@@ -55,7 +55,7 @@ O objetivo principal da Sprint 2 foi aprofundar o conhecimento da equipe em banc
     * [Exercício II-ETAPA-II-resposta](exercicios/exercicio-II-etapa-2.csv)
 
 
-### Certificados
+### Certificados 🎓
 
 - [Certificado SQL para Aálise de Dados](certificados/certificado-sql.jpg)
 - [Certtificado Data & Analytcs 02/10](certificados/certificado-data&analytics-2.jpg)

@@ -92,7 +92,7 @@ sudo chmod +x processamento_de_vendas.sh
 sudo chmod +x consolidador_de_processamento_de_vendas.sh
 ```
 
-### Certificados
+### Certificados 🎓
 
 - [Certificado Métodologias Ágeis de A a Z](certificados/certificado-metodologias-ageis.jpg)
 - [Certtificado Linux para Desenvolvedores](certificados/certificado-linux-desenvolvedores.jpg)
