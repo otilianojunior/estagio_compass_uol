@@ -49,7 +49,5 @@ Tópicos do desafio e suas respectivas funções:
 Conclusão:
 
 Python é uma linguagem de programação versátil e poderosa com uma ampla quantidade de bibliotecas e frameworks disponíveis. 
-Quando se trata de ETL, o Python oferece várias bibliotecas robustas e eficientes, como Pandas, NumPy e SQLAlchemy, que simplificam o processo de manipulação de dados.
-
-Ao utilizar Python para ETL, é possível extrair dados de diversas fontes, como bancos de dados, arquivos CSV e APIs da web, e depois transformá-los de acordo com os requisitos específicos do projeto. 
+Quando se trata de ETL, o Python oferece várias bibliotecas robustas e eficientes, como Pandas, NumPy e SQLAlchemy, que simplificam o processo de manipulação de dados. Ao utilizar Python para ETL, é possível extrair dados de diversas fontes, como bancos de dados, arquivos CSV e APIs da web, e depois transformá-los de acordo com os requisitos específicos do projeto. 
 Essas transformações podem incluir limpeza de dados, agregação, filtragem e muito mais. Uma vez que os dados estejam preparados, podem ser carregados em diferentes destinos, como bancos de dados relacionais, data lakes ou data warehouses.
