@@ -1,1 +1,1 @@
-("Quantidade de apps com classificação 'Mature 17+':", 447)
+Quantidade de apps com classificação 'Mature 17+': 393.

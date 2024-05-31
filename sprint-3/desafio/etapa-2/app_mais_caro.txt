@@ -1,14 +1,1 @@
-App               I'm Rich - Trump Edition
-Category                         LIFESTYLE
-Rating                                 3.6
-Reviews                                275
-Size                                  7.3M
-Installs                             10000
-Type                                  Paid
-Price                                400.0
-Content Rating                    Everyone
-Genres                           Lifestyle
-Last Updated                   May 3, 2018
-Current Ver                          1.0.1
-Android Ver                     4.1 and up
-Name: 4367, dtype: object
+O app com o maior valor no dataset é o I'm Rich - Trump Edition, com o valor de $400.0.
