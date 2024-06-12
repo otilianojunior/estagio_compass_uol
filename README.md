@@ -80,4 +80,12 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - AWS Partner: Economias na nuvem AWS ✅
 - Data & Analytics - PB - AWS - Novo - 3/10 ✅
 
+4. [Sprint 4](sprint-4/README.md)
+
+- Programação funcional: O que é | Alura ✅
+- Python 3 - Curso Completo Do Básico ao Avançado ✅
+- Docker para Desenvolvedores (com docker swarm e Kubernetes) ✅
+- AWS Skil Builder - AWS Partner:Accredittation(Techincal)(Portuguese) ✅
+- Estatística Descritiva com Python ✅
+- Data & Analytics - PB - AWS - Novo - 4/10 ✅
 ___
