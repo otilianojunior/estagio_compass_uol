@@ -71,10 +71,6 @@ principais características da linguagem, sua sintaxe e características que a t
     * [E19-resposta](exercicios/exercicios_parte_2/E19-resposta.py)
     * [E20-resposta](exercicios/exercicios_parte_2/E20-resposta.py)
 
-Claro! Aqui está o Markdown melhorado:
-
----
-
 **2. Exercício resolvido: ETL com Python** 🐍
 
 Este repositório contém a resolução dos exercícios da seção 5, focados em ETL (Extração, Transformação e Carga) utilizando Python. O arquivo utilizado para os exercícios é [actors.csv](exercicios/excercicio_etl/actors.csv).
@@ -107,6 +103,4 @@ Cada etapa do exercício resultou em um arquivo específico. O script de resolu�
 
 - [Certificado Python 3 do Básico ao Avançado](certificados/certificado-python3.jpg)
 - [Certificado Data & Analytics 03/10](certificados/certificado-aspectos-nuvem.png)
-
----
 

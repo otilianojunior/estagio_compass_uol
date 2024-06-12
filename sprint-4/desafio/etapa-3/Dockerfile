@@ -5,6 +5,6 @@ RUN apt-get update -y && \
 
 WORKDIR /etapa-2
 
-COPY . .
+COPY ../etapa-2 .
 
 CMD [ "python", "ConverteStringHash.py"]
