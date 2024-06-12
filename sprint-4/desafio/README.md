@@ -1,53 +1,73 @@
-### Desafio Etapa 1: Ambiente
+### Desafio Etapa 1: Carguru
 
-Para este desafio, é necessário preparar o ambiente para usar o Python. Vamos começar criando o ambiente virtual (venv) para o nosso projeto.
+Para esta etapa, é necessário construir a imagem a partir de um arquivo de instruções Dockerfile, que execute o código `carguru.py`. Após isso, execute um container a partir da imagem criada.
 
-1. Primeiro, instale as dependências do `python3-venv`:
-
-   ```bash
-   sudo apt install python3-venv
-   ```
-
-2. Em seguida, crie a venv no projeto:
+1. Primeiro, navegue até o diretório `sprint-4/desafio/etapa-1`:
 
    ```bash
-   python3 -m venv venv
+   cd sprint-4/desafio/etapa-1
    ```
 
-3. O próximo passo é ativar a venv:
+2. Em seguida, crie a imagem do projeto:
 
    ```bash
-   source venv/bin/activate
+   docker build -t desafio-sprint-etapa:1 .
    ```
 
-4. Após este passo, navegue no terminal até `sprint-3/desafio/etapa-1` [etapa-1](../desafio/etapa-1). Nesta pasta, encontrará o arquivo [`requirements.txt`](../desafio/etapa-1/requirements.txt). Com ele, execute o seguinte código para instalar as dependências e concluir a primeira etapa do desafio:
+3. Por fim, crie e execute o container:
 
    ```bash
-   pip install -r requirements.txt
+   docker run --name desafio-sprint-container desafio-sprint-etapa:1
    ```
 
-### Desafio Etapa 2: Desenvolvimento
+### Desafio Etapa 2: Markdown
 
-Depois de configurar o ambiente, basta abrir e executar o arquivo  [`DesafioEtl.ipynb`](../desafio/etapa-2/DesafioEtl.ipynb), presente na pasta da etapa-2. Trata-se de um arquivo no formato do Jupyter Notebook. Ao executá-lo, você concluirá as etapas restantes do desafio. Observe que existe um bloco de execução `if __name__ == '__main__':` no final do código, onde está indicada a ordem correta de execução para que o script funcione.
+Nos foi feito um questionamento sobre a possibilidade de reutilizar um container. A resposta pode ser encontrada aqui: [`README.md`](../desafio/etapa-2/README.md).
 
-Tópicos do desafio e suas respectivas funções:
-1. Remoção das linhas duplicadas: `remover_duplicatas()`
-2. Gerar gráfico de colunas: `grafico_coluna_top_5_instalacoes()`. Além disso, o gráfico pode ser encontrado aqui: [grafico_barras.png](../evidencias/grafico_barras.png)
-3. Gerar gráfico de pizza: `grafico_pizza_frequencia_categorias()`. Além disso, o gráfico pode ser encontrado aqui: [grafico_pizza.png](../evidencias/grafico_pizza.png)
-4. Qual app é mais caro: `app_mais_caro()`. Além disso, a resposta pode ser encontrada aqui: [app_mais_caro.txt](../desafio/etapa-2/app_mais_caro.txt)
-5. Quantos apps têm classificação Mature 17+: `numero_apps_mature_17()`. Além disso, a resposta pode ser encontrada aqui: [app_mature_17.txt](../desafio/etapa-2/app_mature_17.txt)
-6. Top 10 apps por número de reviews: `top_10_aplicativos_reviews()`. Além disso, a resposta pode ser encontrada aqui: [top_10_reviews.txt](../desafio/etapa-2/top_10_reviews.txt)
-7. Crie mais 2 cálculos sobre o dataset:
-    - `top_10_apps_avaliados()`. Além disso, a resposta pode ser encontrada aqui: [top_10_avaliados.txt](../desafio/etapa-2/top_10_avaliados.txt)
-    - `quantidade_apps_pagos()`. Além disso, a resposta pode ser encontrada aqui: [app_pagos.txt](../desafio/etapa-2/app_pagos.txt)
-8. Crie mais 2 formas gráficas:
-    - `grafico_dispersao_app_updates()`. Além disso, o gráfico pode ser encontrado aqui: [grafico_dispersao.png](../evidencias/grafico_dispersao.png)
-    - `grafico_linha_genero_instalacoes()`. Além disso, o gráfico pode ser encontrado aqui: [grafico_linha.png](../evidencias/grafico_linha.png)
+### Desafio Etapa 3: Converter Strings em Hash SHA-1
 
+Para esta etapa, é necessário construir um script que transforma strings em hash SHA-1. Além disso, é necessário construir a imagem a partir de um arquivo de instruções Dockerfile e, por fim, executar um container a partir da imagem criada.
 
+1. Primeiro, navegue até o diretório `sprint-4/desafio/etapa-3`:
 
-Conclusão:
+   ```bash
+   cd sprint-4/desafio/etapa-3
+   ```
 
-Python é uma linguagem de programação versátil e poderosa com uma ampla quantidade de bibliotecas e frameworks disponíveis. 
-Quando se trata de ETL, o Python oferece várias bibliotecas robustas e eficientes, como Pandas, NumPy e SQLAlchemy, que simplificam o processo de manipulação de dados. Ao utilizar Python para ETL, é possível extrair dados de diversas fontes, como bancos de dados, arquivos CSV e APIs da web, e depois transformá-los de acordo com os requisitos específicos do projeto. 
-Essas transformações podem incluir limpeza de dados, agregação, filtragem e muito mais. Uma vez que os dados estejam preparados, podem ser carregados em diferentes destinos, como bancos de dados relacionais, data lakes ou data warehouses.
+2. O script é o arquivo [`ConverteStringHash.py`](../desafio/etapa-3/ConverteStringHash.py).
+
+3. Em seguida, crie a imagem do projeto:
+
+   ```bash
+   docker build -t mascarar-dados .
+   ```
+
+4. Por fim, crie e execute o container de forma interativa:
+
+   ```bash
+   docker run -it --name container-mascarar-dados mascarar-dados
+   ```
+   
+### Desafio Evidencias:
+
+1. Comando utilizado para visualizar as images, [`Imagem da execução`](../evidencias/docker-images.png).
+
+   ```bash
+   docker images.
+   ```
+2. Comando para reutilziar container de forma interativa, [`Imagem da execução`](../evidencias/docker-start-i-container-mascarar-dados.png).
+
+   ```bash
+   docker start -i container-mascarar-dados
+   ```
+3. Logs de execução do container interativo, [`Imagem da execução`](../evidencias/docker-logs-container-mascarar-dados.png).
+
+   ```bash
+   docker logs container-mascarar-dados
+   ```
+
+### Conclusão sobre Docker
+
+Docker é uma ferramenta poderosa que permite criar, implantar e executar aplicações em containers. Containers são 
+leves, portáteis e garantem que a aplicação tenha tudo o que precisa para ser executada, independente do ambiente em 
+que se encontra, isso facilita o desenvolvimento.
