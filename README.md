@@ -88,4 +88,11 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - AWS Skil Builder - AWS Partner:Accredittation(Techincal)(Portuguese) ✅
 - Estatística Descritiva com Python ✅
 - Data & Analytics - PB - AWS - Novo - 4/10 ✅
+
+5. [Sprint 5](sprint-5/README.md)
+
+- AWS Skill Builder - AWS Cloud Quest: Cloud Practitioner ✅
+- Curso-padrão de preparação para o exame: AWS Certified Cloud Practitioner (CLF-C02 - Português (Brasil)) ✅
+- Data & Analytics - PB - AWS - Novo - 5/10 ✅
+- 
 ___
