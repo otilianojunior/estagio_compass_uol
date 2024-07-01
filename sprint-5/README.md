@@ -3,7 +3,7 @@
 ### Objetivo
 
 O objetivo é adiquirir conhecimento relacionado a cloud através de cursos voltados à fundamentação teórica, 
-conteúdos voltados às acreditações AWS e preparação para Certificação Cloud Practitioner (introdutório).
+conteúdos voltados às acreditações AWS e preparação para Certificação Cloud Practitioner (introdutório). Fazendo uma consutla no formato SQL.
 
 
 ## DESAFIO DA SPRINT
@@ -11,7 +11,7 @@ conteúdos voltados às acreditações AWS e preparação para Certificação Cl
 ### ➡️ Primeira Etapa
 
 **1. Objetivo praticar conhecimento de nuvem AWS aprendidos na sprint .**
-* Escolher arquivo único entre os bolsistas na base de dados do Governo [http://dados.gov.br](http://dados.gov.br).✅
+* Escolher arquivo único entre os bolsistas na base de dados do Governo [http://dados.gov.br](https://dados.gov.br/dados/conjuntos-dados/relacao-dos-veiculos-envolvidos-nos-acidentes-de-transito-com-vitima).✅
   * Imagem [dados](evidencias/dados-aceidentes-2021.png), Os dados escolhidos foram os acidentes registrados na cidade de Belo Horizonte em 2021.
 
 * Criar um bucket s3.✅
@@ -22,7 +22,7 @@ conteúdos voltados às acreditações AWS e preparação para Certificação Cl
   
 * Código S3 Select ou Python com Boto3.✅
 * Consultar arquivo: ✅
-  * Cláusula que filtra dados; ✅
+  * Cláusula que filtra dados com dois operadores lópgicos; ✅
   * Duas funções de agregação; ✅
   * Uma função Condicional; ✅
   * Conversão; ✅
