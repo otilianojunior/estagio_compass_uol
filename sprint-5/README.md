@@ -41,4 +41,5 @@ conteúdos voltados às acreditações AWS e preparação para Certificação Cl
 ### Certificados 🎓
 
 - [Credencial: Curso Cloud Practitioner](certificados/aws-cloud-quest-practitioner.png)
-- [Certificado :AWS Cloud PRactitioner -CLF-C02](certificados/certificado-aws-cloud-practitioner-clf-c02.jpg)
+- [Certificado: AWS Cloud Practitioner -CLF-C02](certificados/certificado-aws-cloud-practitioner-clf-c02.jpg)
+- [Certificado: Preparação AWS Cloud Practitioner -CLF-C02](certificados/Preparação-AWS-Cloud-Practitioner-CLF-C02.png)
