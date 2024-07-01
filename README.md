@@ -94,5 +94,4 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - AWS Skill Builder - AWS Cloud Quest: Cloud Practitioner ✅
 - Curso-padrão de preparação para o exame: AWS Certified Cloud Practitioner (CLF-C02 - Português (Brasil)) ✅
 - Data & Analytics - PB - AWS - Novo - 5/10 ✅
-- 
 ___
