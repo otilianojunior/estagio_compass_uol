@@ -94,4 +94,16 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - AWS Skill Builder - AWS Cloud Quest: Cloud Practitioner ✅
 - Curso-padrão de preparação para o exame: AWS Certified Cloud Practitioner (CLF-C02 - Português (Brasil)) ✅
 - Data & Analytics - PB - AWS - Novo - 5/10 ✅
-___
+
+6. [Sprint 6](sprint-6/README.md)
+
+- AWS Skill Builder - Fundamentals of Analytics on AWS – Part 1 (Portuguese)✅
+- AWS Skill Builder -  Fundamentals of Analytics on AWS – Part 2 (Portuguese)✅
+- AWS Skill Builder - Serverless Analytics (Portuguese)✅
+- AWS Skill Builder - Introduction to Amazon Athena (Portuguese)✅
+- AWS Skill Builder - AWS Glue Getting Started✅
+- AWS Skill Builder - Amazon EMR Getting Started✅
+- AWS Skill Builder - Getting Started with Amazon Redshift✅
+- AWS Skill Builder - Best Practices for Data Warehousing with Amazon Redshift✅
+- AWS Skill Builder - Amazon QuickSight - Getting Started✅
+- Data & Analytics - PB - AWS - Novo - 6/10✅
