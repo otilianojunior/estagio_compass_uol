@@ -49,7 +49,66 @@ Além da minha experiência profissional, tenho me dedicado a ampliar meus conhe
 Atualmente, estou expandindo minha expertise em:
 
 - Java
+----
+## Desafio Final
 
+O desafio de filmes e séries está dividido em 5 entregas, começando na sprint 6 e indo até a 10. Trata-se de um desafio para construção de um Data Lake, abrangendo as etapas de ingestão, armazenamento, processamento e consumo. As squads foram divididas por temas: comédia/animação, crime/guerra, drama/romance, sci-fi/fantasia, ação/aventura, terror/mistério.
+
+### Squad 3 - Drama e Romance
+
+Os arquivos de dados `movies.csv` e `series.csv` possuem diversas informações:
+
+- **Filmes:**
+  - `id`
+  - `tituloPincipal`
+  - `tituloOriginal`
+  - `anoLancamento`
+  - `tempoMinutos`
+  - `genero`
+  - `notaMedia`
+  - `numeroVotos`
+  - `generoArtista`
+  - `personagem`
+  - `nomeArtista`
+  - `anoNascimento`
+  - `anoFalecimento`
+  - `profissao`
+  - `titulosMaisConhecidos`
+
+- **Séries:**
+  - `id`
+  - `tituloPincipal`
+  - `tituloOriginal`
+  - `anoLancamento`
+  - `anoTermino`
+  - `tempoMinutos`
+  - `genero`
+  - `notaMedia`
+  - `numeroVotos`
+  - `generoArtista`
+  - `personagem`
+  - `nomeArtista`
+  - `anoNascimento`
+  - `anoFalecimento`
+  - `profissao`
+  - `titulosMaisConhecidos`
+
+Das diversas informações presentes, é possível realizar várias análises. Escolhi uma análise para filmes e outra para séries.
+
+## Questões
+
+### Filmes
+**Top 10 atores que mais atuaram em filmes de drama e romance entre os anos de 1990 e 2024.**
+
+- **Objetivo:** Identificar os atores mais produtivos em filmes de drama e romance nesse período.
+- **Benefício:** Permitir a seleção de atores populares e experientes para novos projetos cinematográficos nesse gênero.
+
+### Séries
+**As 5 séries de drama e romance com as piores avaliações entre os anos de 1990 e 2024.**
+
+- **Objetivo:** Determinar as séries de drama e romance que receberam as piores críticas.
+- **Benefício:** Entender os motivos por trás das avaliações negativas para evitar erros semelhantes em futuros projetos.
+----
 ## Sprints
 
 Aqui vou documentar minhas atividades e progresso durante as sprints de desenvolvimento. Fique à vontade para acompanhar meu trabalho e contribuir com feedbacks e sugestões! 🚀
