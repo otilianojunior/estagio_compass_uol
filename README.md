@@ -45,10 +45,10 @@ Além da minha experiência profissional, tenho me dedicado a ampliar meus conhe
 - Git
 - Python
 - FastApi
+- Java
 
 Atualmente, estou expandindo minha expertise em:
 
-- Java
 ----
 ## Desafio Final
 
@@ -98,16 +98,16 @@ Das diversas informações presentes, é possível realizar várias análises. E
 ## Questões
 
 ### Filmes
-**Top 10 atores que mais atuaram em filmes de drama e romance entre os anos de 1990 e 2024.**
+**Top 10 filmes de drama e romance com as piores avaliações entre os anos de 2019 e 2023.**
 
-- **Objetivo:** Identificar os atores mais produtivos em filmes de drama e romance nesse período.
-- **Benefício:** Permitir a seleção de atores populares e experientes para novos projetos cinematográficos nesse gênero.
+- **Objetivo:** Identificar os filmes com as piores avaliações durante a pandemia de COVID-19.
+- **Benefício:** Compreender os motivos das avaliações negativas para evitar erros semelhantes em futuros projetos.
 
 ### Séries
-**As 5 séries de drama e romance com as piores avaliações entre os anos de 1990 e 2024.**
+**Os atores das 5 séries de drama e romance com as piores avaliações entre os anos de 1980 e 2024.**
 
-- **Objetivo:** Determinar as séries de drama e romance que receberam as piores críticas.
-- **Benefício:** Entender os motivos por trás das avaliações negativas para evitar erros semelhantes em futuros projetos.
+- **Objetivo:** Determinar quais atores participaram de séries de drama e romance que receberam as piores críticas.
+- **Benefício:** Compreender os motivos das avaliações negativas para reavaliar futuras contratações em projetos de séries.
 ----
 ## Sprints
 
@@ -156,13 +156,18 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 
 6. [Sprint 6](sprint-6/README.md)
 
-- AWS Skill Builder - Fundamentals of Analytics on AWS – Part 1 (Portuguese)✅
-- AWS Skill Builder -  Fundamentals of Analytics on AWS – Part 2 (Portuguese)✅
-- AWS Skill Builder - Serverless Analytics (Portuguese)✅
-- AWS Skill Builder - Introduction to Amazon Athena (Portuguese)✅
-- AWS Skill Builder - AWS Glue Getting Started✅
-- AWS Skill Builder - Amazon EMR Getting Started✅
-- AWS Skill Builder - Getting Started with Amazon Redshift✅
-- AWS Skill Builder - Best Practices for Data Warehousing with Amazon Redshift✅
-- AWS Skill Builder - Amazon QuickSight - Getting Started✅
-- Data & Analytics - PB - AWS - Novo - 6/10✅
+- AWS Skill Builder - Fundamentals of Analytics on AWS – Part 1 (Portuguese) ✅
+- AWS Skill Builder -  Fundamentals of Analytics on AWS – Part 2 (Portuguese) ✅
+- AWS Skill Builder - Serverless Analytics (Portuguese) ✅
+- AWS Skill Builder - Introduction to Amazon Athena (Portuguese) ✅
+- AWS Skill Builder - AWS Glue Getting Started ✅
+- AWS Skill Builder - Amazon EMR Getting Started ✅
+- AWS Skill Builder - Getting Started with Amazon Redshift ✅
+- AWS Skill Builder - Best Practices for Data Warehousing with Amazon Redshift ✅
+- AWS Skill Builder - Amazon QuickSight - Getting Started ✅
+- Data & Analytics - PB - AWS - Novo - 6/10 ✅
+
+7. [Sprint 7](sprint-7/README.md)
+- Data & Analytics - PB - AWS - Novo - 7/10 ✅
+- Formação Spark com Pyspark: o Curso Completo ✅
+- Data & Analytics - PB - AWS - Novo - 7/10 ✅
