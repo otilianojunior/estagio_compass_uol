@@ -26,9 +26,8 @@ O objetivo é iniciar os estudos e aprofundar o conhecimento sobre o framework A
 ### ➡️ Resolução de Exercícios
 
 **1. Exercícios resolvidos:** Cada pasta de resolução possui seu próprio README com a explicação de como foi feito.
-  * [Lab AWS S3](exercicios/lab-aws-s3)
-  * [Lab AWS Athena](exercicios/lab-aws-athena)
-  * [Lab AWS Lambda](exercicios/lab-aws-lambda)
+  * [Exercicio Contador de Palavras](exercicios/contador-palavras)
+  * [Lab AWS Glue](exercicios/laboratorio-aws)
 
 ### Certificados 🎓
 
