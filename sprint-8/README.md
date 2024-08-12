@@ -37,3 +37,7 @@ O desafio de filmes e séries está dividido em 5 entregas. Nesta sprint, realiz
 * [Geração de Dados](exercicios/geracao-dados) ✅
 * [Apache Spark](exercicios/apache-spark) ✅
 * [Exercício TMDB](exercicios/exercicio_tmdb) ✅
+
+### Certificados
+
+* [Curso AWS - Tutoriais Técnicos - Analytics ](certificados/cursos-sprint-8.png) ✅
