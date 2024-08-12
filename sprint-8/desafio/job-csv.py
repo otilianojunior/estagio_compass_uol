@@ -8,7 +8,7 @@ from pyspark.sql.types import StructType, StructField, StringType, IntegerType, 
 
 # Função para salvar DataFrame em Parquet
 def save_as_parquet(df, output_path: str):
-    if df.count() > 0:  # Verifica se o DataFrame não está vazio
+    if df.count() > 0:
         df.write.mode('overwrite').parquet(output_path)
         print(f"DataFrame salvo em: {output_path}")
     else:
