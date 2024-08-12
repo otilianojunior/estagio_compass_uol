@@ -171,3 +171,7 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 - Data & Analytics - PB - AWS - Novo - 7/10 ✅
 - Formação Spark com Pyspark: o Curso Completo ✅
 - Data & Analytics - PB - AWS - Novo - 7/10 ✅
+
+8. [Sprint 8](sprint-8/README.md)
+- Data & Analytics - PB - AWS - Novo - 8/10 ✅
+- [Opcional] AWS - Tutoriais Técnicos - Analytics ✅
