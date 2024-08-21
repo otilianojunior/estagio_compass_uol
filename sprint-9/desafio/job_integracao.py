@@ -5,7 +5,7 @@ from awsglue.job import Job
 from pyspark.context import SparkContext
 from pyspark.sql import functions as F
 
-# Parâmetros do job
+## @params: [JOB_NAME, S3_INPUT_PATH_TRUSTED_TMDB, S3_INPUT_PATH_TRUSTED_CSV, S3_OUTPUT_PATH_TRUSTED]
 args = getResolvedOptions(sys.argv, ['JOB_NAME', 'S3_INPUT_PATH_TRUSTED_TMDB', 'S3_INPUT_PATH_TRUSTED_CSV', 'S3_OUTPUT_PATH_TRUSTED'])
 
 # Inicializa o contexto
@@ -15,16 +15,9 @@ spark = glueContext.spark_session
 job = Job(glueContext)
 job.init(args['JOB_NAME'], args)
 
-# Caminhos dos arquivos de entrada
-input_path_tmdb = args['S3_INPUT_PATH_TRUSTED_TMDB']
-input_path_csv = args['S3_INPUT_PATH_TRUSTED_CSV']
-
-# Caminho do arquivo de saída
-output_path = args['S3_OUTPUT_PATH_TRUSTED'] + "/INTEGRACAO"
-
 # Leitura dos arquivos Parquet
-df_tmdb = spark.read.parquet(input_path_tmdb)
-df_csv = spark.read.parquet(input_path_csv)
+df_tmdb = spark.read.parquet(args['S3_INPUT_PATH_TRUSTED_TMDB'])
+df_csv = spark.read.parquet(args['S3_INPUT_PATH_TRUSTED_CSV'])
 
 # Expande o campo 'cast' para linhas individuais no df_tmdb
 df_tmdb_expanded = df_tmdb.withColumn("elenco", F.explode(F.col("cast")))
@@ -61,7 +54,7 @@ df_filmes_tmdb = df_tmdb_expanded.select(
     F.col("elenco.order").cast("int").alias("ordem")
 )
 
-# Seleciona as colunas do DataFrame CSV, convertendo os anos em datas fictícias
+# Seleciona as colunas do DataFrame CSV, completando o mes e o dia
 df_csv = df_csv.select(
     F.col("id").cast("string").alias("id_imdb"),
     F.col("titulo").cast("string").alias("titulo"),
@@ -85,7 +78,7 @@ df_csv = df_csv.select(
 df_final = df_filmes_tmdb.unionByName(df_csv, allowMissingColumns=True)
 
 # Salva o DataFrame combinado como um único arquivo Parquet
-df_final.write.mode('overwrite').parquet(output_path)
+df_final.write.mode('overwrite').parquet(args['S3_OUTPUT_PATH_TRUSTED'] + "/INTEGRACAO")
 
 # Finaliza o job
 job.commit()
