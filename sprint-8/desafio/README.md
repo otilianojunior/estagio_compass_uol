@@ -44,3 +44,24 @@ Consultas no Athena mostram que os bancos criados pelos crawlers estão funciona
 
 - Imagem CSV: ![Consulta Athena CSV](../evidencias/athena-csv.png)
 - Imagem JSON: ![Consulta Athena JSON](../evidencias/athena-json.png)
+
+Aqui está o markdown corrigido e aprimorado:
+
+## Atualizações
+
+Após análise dos dados obtidos na API TMDB e no CSV, decidi 
+trabalhar exclusivamente com remakes de filmes do gênero **Drama** e alguns filmes de sugestões para remake.
+As motivações e justificativas para essa escolha estão detalhadas neste [README](../../README.md). É importante ressaltar 
+que agora possuimos uma lista de filme especifica que irá ser utilziada.
+
+Como resultado, a atualização realizada incluiu a exclusão dos dados de séries na construção da camada **trusted**. 
+Além disso, foram feitas modificações nos nomes das colunas dos arquivos vindos dos formatos CSV e a adição em ambas fontes de dados da coluna 'origem',
+para facilitar a junção de dados e analise do mesmo.
+
+Os códigos atualizados podem ser visualizados aqui:
+
+- [Job CSV](../desafio/job-csv.py)
+- [Job JSON](../desafio/job-json.py)
+
+
+Essas atualizações visam garantir consistência entre os dados e simplificar processos futuros de integração.

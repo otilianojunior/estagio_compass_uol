@@ -97,17 +97,69 @@ Das diversas informações presentes, é possível realizar várias análises. E
 
 ## Questões
 
-### Filmes
-**Top 10 filmes de drama e romance com as piores avaliações entre os anos de 2019 e 2023.**
+**Tema Central:**  
+**"Análise de Remakes de Filmes Clássicos de Drama e Recomendações para Novas Produções: Considerações sobre Orçamento, Receita, Elenco e Avaliações"**
 
-- **Objetivo:** Identificar os filmes com as piores avaliações durante a pandemia de COVID-19.
-- **Benefício:** Compreender os motivos das avaliações negativas para evitar erros semelhantes em futuros projetos.
+Remakes de filmes clássicos são uma tendência constante na indústria cinematográfica. 
+O objetivo desta análise é identificar filmes clássicos de drama que possam ser bons candidatos para remakes, 
+avaliando como fatores como orçamento, bilheteria, elenco e recepção crítica influenciam o sucesso tanto dos filmes originais quanto de suas reinterpretações modernas.
 
-### Séries
-**Os atores das 5 séries de drama e romance com as piores avaliações entre os anos de 1980 e 2024.**
+**Diferenças e Similaridades:**  
+A análise permitirá explorar como a modernização e reinterpretação de histórias clássicas afetam o desempenho comercial
+e crítico dos filmes. Investigar se os remakes mantêm, superam ou falham em replicar o sucesso dos originais pode fornecer insights 
+valiosos sobre quais elementos são cruciais para o sucesso. Além disso, será analisado se certos filmes clássicos indicam potenciais para futuros remakes.
 
-- **Objetivo:** Determinar quais atores participaram de séries de drama e romance que receberam as piores críticas.
-- **Benefício:** Compreender os motivos das avaliações negativas para reavaliar futuras contratações em projetos de séries.
+**Impacto do Elenco e Produção:**  
+Remakes frequentemente apresentam elencos e equipes de produção diferentes. Analisar como essas mudanças influenciam o sucesso dos 
+filmes ajudará a compreender o papel crucial do elenco e da produção na aceitação pelo público e no desempenho financeiro.
+
+**Expectativas do Público e Crítica:**  
+O interesse dos espectadores e da crítica em remakes pode diferir significativamente dos originais. 
+Avaliar a recepção crítica e a popularidade dos remakes em comparação com os filmes originais pode oferecer insights sobre as expectativas e preferências do público.
+
+**Estudo de Tendências e Impactos Culturais:**  
+Remakes muitas vezes refletem mudanças culturais e tendências atuais. Analisar essas obras pode proporcionar uma compreensão mais profunda das dinâmicas culturais e 
+de como elas influenciam o sucesso dos filmes.
+
+**Lista de Filmes Clássicos Escolhida:**
+
+Aqui está a separação dos filmes em "Com Remake" e "Proposta de Remake":
+
+### Com Remake:
+- **Ben-Hur**
+- **Scarface** 
+- **A Star is Born** 
+- **True Grit** 
+- **The Great Gatsby** 
+- **The Postman Always Rings Twice** 
+- **Cape Fear**
+- **The Manchurian Candidate** 
+- **12 Angry Men** 
+- **Les Misérables** 
+- **Doctor Zhivago** 
+
+### Proposta de Remake:
+- **O Poderoso Chefão** 
+- **Um Sonho de Liberdade**
+- **A Lista de Schindler**
+- **Forrest Gump - O Contador de Histórias**
+- **À Espera de um Milagre**
+- **A Vida é Bela**
+- **O Resgate do Soldado Ryan**
+- **O Silêncio dos Inocentes**
+- **Intocáveis** 
+- **Sempre ao Seu Lado**
+- **Interestelar**
+- **Histórias Cruzadas**
+- **À Procura da Felicidade**
+- **Homens de Honra**
+- **Coringa**
+- **O Sexto Sentido**
+- **Até o Último Homem**
+- **A Noviça Rebelde**
+- **Angry Men**
+- **Inferno na Torre**
+
 ----
 ## Sprints
 
@@ -175,3 +227,6 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 8. [Sprint 8](sprint-8/README.md)
 - Data & Analytics - PB - AWS - Novo - 8/10 ✅
 - [Opcional] AWS - Tutoriais Técnicos - Analytics ✅
+
+9. [Sprint 9](sprint-9/README.md)
+- Data & Analytics - PB - AWS - Novo - 9/10 ✅

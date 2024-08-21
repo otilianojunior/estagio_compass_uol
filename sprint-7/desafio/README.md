@@ -53,3 +53,46 @@ docker run --rm -v $(pwd):/host load_data_image cp /lambda/layer-load-tmdb.zip /
 - Imagem: ![load-movies](../evidencias/load_movie.png)
 - Imagem: ![load-series](../evidencias/load-serie.png)
 
+## Atualizações
+
+Após uma análise aprofundada do material obtido na API TMDb, decidi focar em filmes do gênero **Drama**. 
+As motivações e justificativas para essa escolha podem ser consultadas neste [README](../../README.md). 
+
+Na consulta realizada para adquirir os dados da camada raw, utilizei os IDs dos filmes que serão analisados.
+
+A lista de filmes selecionados é a seguinte:
+
+- A Noviça Rebelde
+- Até o Último Homem
+- Ben-Hur
+- O Sexto Sentido
+- Coringa
+- Homens de Honra
+- À Procura da Felicidade
+- Histórias Cruzadas
+- Interestelar
+- Sempre ao Seu Lado
+- Intocáveis
+- O Silêncio dos Inocentes
+- O Poderoso Chefão
+- A Vida é Bela
+- À Espera de um Milagre
+- Forrest Gump - O Contador de Histórias
+- A Lista de Schindler
+- Um Sonho de Liberdade
+- Anna Karenina
+- A Star Is Born
+
+Para obter esses filmes, utilizei o código [consulta_id](../../sprint-9/evidencias/scripts/ConsultaID.py) 
+para extrair os IDs. Abaixo está o código em execução:
+
+![consulta-id](../../sprint-9/evidencias/fotos/consulta_id_execucao.png)
+
+```python
+lista_id = [238, 242, 240, 278, 424, 13, 497, 637, 857, 274, 77338, 28178, 157336, 50014, 1402, 11978, 475557,
+            745, 665, 271969, 324786, 15121, 332562, 3111, 19610, 96724, 70881, 50512]
+```
+
+Após obter os IDs corretos para o gênero selecionado, atualizei o código para salvar o resultado da consulta na camada 
+raw, em um arquivo JSON, seguindo todos os padrões estabelecidos.
+
