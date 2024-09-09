@@ -13,20 +13,16 @@ Após a análise dos dados nas camadas raw e trusted, percebi que não seria pos
 inicialmente propostas. Foi necessário atualizar as perguntas do desafio para garantir a análise correta dos dados.
 
 **Tema Central:**  
-**"Análise de Remakes de Filmes Clássicos de Drama e Recomendações para Novas Produções: Considerações sobre Orçamento, Receita, Elenco e Avaliações"**
+**"Análise de Remakes de Filmes Clássicos de Drama e Recomendações para Novas Produções: Considerações sobre Orçamento, Receita e Avaliações do Público"**
 
 Remakes de filmes clássicos são uma tendência constante na indústria cinematográfica. 
-O objetivo desta análise é identificar filmes clássicos de drama que possam ser bons candidatos para remakes, 
-avaliando como fatores como orçamento, bilheteria, elenco e recepção crítica influenciam o sucesso tanto dos filmes originais quanto de suas reinterpretações modernas.
+O objetivo desta análise é identificar filmes clássicos de drama que possam ser bons candidatos para remakes ou continuações, 
+avaliando como fatores como orçamento, bilheteria, e recepção crítica influenciam o sucesso tanto dos filmes originais quanto de suas reinterpretações modernas.
 
 **Diferenças e Similaridades:**  
 A análise permitirá explorar como a modernização e reinterpretação de histórias clássicas afetam o desempenho comercial
 e crítico dos filmes. Investigar se os remakes mantêm, superam ou falham em replicar o sucesso dos originais pode fornecer insights 
 valiosos sobre quais elementos são cruciais para o sucesso. Além disso, será analisado se certos filmes clássicos indicam potenciais para futuros remakes.
-
-**Impacto do Elenco e Produção:**  
-Remakes frequentemente apresentam elencos e equipes de produção diferentes. Analisar como essas mudanças influenciam o sucesso dos 
-filmes ajudará a compreender o papel crucial do elenco e da produção na aceitação pelo público e no desempenho financeiro.
 
 **Expectativas do Público e Crítica:**  
 O interesse dos espectadores e da crítica em remakes pode diferir significativamente dos originais. 
@@ -41,39 +37,37 @@ de como elas influenciam o sucesso dos filmes.
 Aqui está a separação dos filmes em "Com Remake" e "Proposta de Remake":
 
 ### Com Remake:
-- **Ben-Hur**
-- **Scarface** 
-- **A Star is Born** 
-- **True Grit** 
-- **The Great Gatsby** 
-- **The Postman Always Rings Twice** 
-- **Cape Fear**
-- **The Manchurian Candidate** 
-- **12 Angry Men** 
-- **Les Misérables** 
-- **Doctor Zhivago** 
+- **A Star is Born** (Nasce uma Estrela)
+- **Anna Karenina** (Anna Karenina)
+- **Ben-Hur** (Ben-Hur)
+- **Cape Fear** (Cabo do Medo)
+- **Les Misérables** (Os Miseráveis)
+- **Scarface** (Scarface)
+- **The Manchurian Candidate** (Sob o Domínio do Mal)
+- **The Postman Always Rings Twice** (O Destino Bate à Sua Porta)
+- **True Grit** (Bravura Indômita)
 
-### Proposta de Remake:
-- **O Poderoso Chefão** 
-- **Um Sonho de Liberdade**
-- **A Lista de Schindler**
-- **Forrest Gump - O Contador de Histórias**
-- **À Espera de um Milagre**
-- **A Vida é Bela**
-- **O Resgate do Soldado Ryan**
-- **O Silêncio dos Inocentes**
-- **Intocáveis** 
-- **Sempre ao Seu Lado**
-- **Interestelar**
-- **Histórias Cruzadas**
-- **À Procura da Felicidade**
-- **Homens de Honra**
-- **Coringa**
-- **O Sexto Sentido**
-- **Até o Último Homem**
-- **A Noviça Rebelde**
-- **Angry Men**
-- **Inferno na Torre**
+### Proposta de Remake ou Continuações:
+- **Forrest Gump** (Forrest Gump - O Contador de Histórias)
+- **Hachi: A Dog's Tale** (Sempre ao Seu Lado)
+- **Hacksaw Ridge** (Até o Último Homem)
+- **Interstellar** (Interestelar)
+- **Joker** (Coringa)
+- **Life Is Beautiful** (A Vida é Bela)
+- **Men of Honor** (Homens de Honra)
+- **Saving Private Ryan** (O Resgate do Soldado Ryan)
+- **Schindler's List** (A Lista de Schindler)
+- **The Godfather** (O Poderoso Chefão)
+- **The Green Mile** (À Espera de um Milagre)
+- **The Help** (Histórias Cruzadas)
+- **The Intouchables** (Intocáveis)
+- **The Pursuit of Happyness** (À Procura da Felicidade)
+- **The Shawshank Redemption** (Um Sonho de Liberdade)
+- **The Silence of the Lambs** (O Silêncio dos Inocentes)
+- **The Sixth Sense** (O Sexto Sentido)
+- **The Sound of Music** (A Noviça Rebelde)
+- **The Tower** (Pânico na Torre)
+- **The Towering Inferno** (Inferno na Torre)
 
 
 ### ➡️ Segunda Etapa
@@ -114,7 +108,7 @@ As imagens relacionadas ao desafio estão organizadas na pasta [evidencias/fotos
 **Exercícios Resolvidos:**  
 Nesta sprint, não houve exercícios.
 
-### Certificados
+### Certificados 🎓
 
 **Certificados:**  
 Nesta sprint, não houve cursos que geraram certificados.

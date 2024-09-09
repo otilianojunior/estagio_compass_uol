@@ -50,7 +50,7 @@ Além da minha experiência profissional, tenho me dedicado a ampliar meus conhe
 Atualmente, estou expandindo minha expertise em:
 
 ----
-## Desafio Final
+## [Desafio Final](sprint-10/README.md)
 
 O desafio de filmes e séries está dividido em 5 entregas, começando na sprint 6 e indo até a 10. Trata-se de um desafio para construção de um Data Lake, abrangendo as etapas de ingestão, armazenamento, processamento e consumo. As squads foram divididas por temas: comédia/animação, crime/guerra, drama/romance, sci-fi/fantasia, ação/aventura, terror/mistério.
 
@@ -92,26 +92,23 @@ Os arquivos de dados `movies.csv` e `series.csv` possuem diversas informações:
   - `anoFalecimento`
   - `profissao`
   - `titulosMaisConhecidos`
-
-Das diversas informações presentes, é possível realizar várias análises. Escolhi uma análise para filmes e outra para séries.
+  - 
+Com base nas diversas informações disponíveis, é possível conduzir várias análises. 
+Optei por focar na análise de remakes de filmes de drama.
 
 ## Questões
 
 **Tema Central:**  
-**"Análise de Remakes de Filmes Clássicos de Drama e Recomendações para Novas Produções: Considerações sobre Orçamento, Receita, Elenco e Avaliações"**
+**"Análise de Remakes de Filmes Clássicos de Drama e Recomendações para Novas Produções: Considerações sobre Orçamento, Receita e Avaliações do Público"**
 
 Remakes de filmes clássicos são uma tendência constante na indústria cinematográfica. 
-O objetivo desta análise é identificar filmes clássicos de drama que possam ser bons candidatos para remakes, 
-avaliando como fatores como orçamento, bilheteria, elenco e recepção crítica influenciam o sucesso tanto dos filmes originais quanto de suas reinterpretações modernas.
+O objetivo desta análise é identificar filmes clássicos de drama que possam ser bons candidatos para remakes ou continuações, 
+avaliando como fatores como orçamento, bilheteria, e recepção crítica influenciam o sucesso tanto dos filmes originais quanto de suas reinterpretações modernas.
 
 **Diferenças e Similaridades:**  
 A análise permitirá explorar como a modernização e reinterpretação de histórias clássicas afetam o desempenho comercial
 e crítico dos filmes. Investigar se os remakes mantêm, superam ou falham em replicar o sucesso dos originais pode fornecer insights 
 valiosos sobre quais elementos são cruciais para o sucesso. Além disso, será analisado se certos filmes clássicos indicam potenciais para futuros remakes.
-
-**Impacto do Elenco e Produção:**  
-Remakes frequentemente apresentam elencos e equipes de produção diferentes. Analisar como essas mudanças influenciam o sucesso dos 
-filmes ajudará a compreender o papel crucial do elenco e da produção na aceitação pelo público e no desempenho financeiro.
 
 **Expectativas do Público e Crítica:**  
 O interesse dos espectadores e da crítica em remakes pode diferir significativamente dos originais. 
@@ -126,39 +123,37 @@ de como elas influenciam o sucesso dos filmes.
 Aqui está a separação dos filmes em "Com Remake" e "Proposta de Remake":
 
 ### Com Remake:
-- **Ben-Hur**
-- **Scarface** 
-- **A Star is Born** 
-- **True Grit** 
-- **The Great Gatsby** 
-- **The Postman Always Rings Twice** 
-- **Cape Fear**
-- **The Manchurian Candidate** 
-- **12 Angry Men** 
-- **Les Misérables** 
-- **Doctor Zhivago** 
+- **A Star is Born** (Nasce uma Estrela)
+- **Anna Karenina** (Anna Karenina)
+- **Ben-Hur** (Ben-Hur)
+- **Cape Fear** (Cabo do Medo)
+- **Les Misérables** (Os Miseráveis)
+- **Scarface** (Scarface)
+- **The Manchurian Candidate** (Sob o Domínio do Mal)
+- **The Postman Always Rings Twice** (O Destino Bate à Sua Porta)
+- **True Grit** (Bravura Indômita)
 
-### Proposta de Remake:
-- **O Poderoso Chefão** 
-- **Um Sonho de Liberdade**
-- **A Lista de Schindler**
-- **Forrest Gump - O Contador de Histórias**
-- **À Espera de um Milagre**
-- **A Vida é Bela**
-- **O Resgate do Soldado Ryan**
-- **O Silêncio dos Inocentes**
-- **Intocáveis** 
-- **Sempre ao Seu Lado**
-- **Interestelar**
-- **Histórias Cruzadas**
-- **À Procura da Felicidade**
-- **Homens de Honra**
-- **Coringa**
-- **O Sexto Sentido**
-- **Até o Último Homem**
-- **A Noviça Rebelde**
-- **Angry Men**
-- **Inferno na Torre**
+### Proposta de Remake ou Continuações:
+- **Forrest Gump** (Forrest Gump - O Contador de Histórias)
+- **Hachi: A Dog's Tale** (Sempre ao Seu Lado)
+- **Hacksaw Ridge** (Até o Último Homem)
+- **Interstellar** (Interestelar)
+- **Joker** (Coringa)
+- **Life Is Beautiful** (A Vida é Bela)
+- **Men of Honor** (Homens de Honra)
+- **Saving Private Ryan** (O Resgate do Soldado Ryan)
+- **Schindler's List** (A Lista de Schindler)
+- **The Godfather** (O Poderoso Chefão)
+- **The Green Mile** (À Espera de um Milagre)
+- **The Help** (Histórias Cruzadas)
+- **The Intouchables** (Intocáveis)
+- **The Pursuit of Happyness** (À Procura da Felicidade)
+- **The Shawshank Redemption** (Um Sonho de Liberdade)
+- **The Silence of the Lambs** (O Silêncio dos Inocentes)
+- **The Sixth Sense** (O Sexto Sentido)
+- **The Sound of Music** (A Noviça Rebelde)
+- **The Tower** (Pânico na Torre)
+- **The Towering Inferno** (Inferno na Torre)
 
 ----
 ## Sprints
@@ -230,3 +225,9 @@ Aqui vou documentar minhas atividades e progresso durante as sprints de desenvol
 
 9. [Sprint 9](sprint-9/README.md)
 - Data & Analytics - PB - AWS - Novo - 9/10 ✅
+
+10. [Sprint 10](sprint-10/README.md)
+- Data & Analytics - PB - AWS - Novo - 10/10 ✅
+- Complete Introduction to Amazon QuickSight ✅
+- Data & Analytics - PB - AWS - Novo - 10/10 ✅
+- [Opcional] Workshop de QuickSight para Autores ✅
