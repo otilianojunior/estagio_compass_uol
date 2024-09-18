@@ -84,8 +84,6 @@ A modernização e reinterpretação de histórias clássicas têm um impacto po
 Não houve exercícios nesta sprint.
 
 ### Certificados 🎓
-
-**Certificados:**  
 * [Curso AWS - Introdução Completa ao Amazon QuickSight](certificados/certificados-aws-quicksight.jpg) ✅
 
 ---
