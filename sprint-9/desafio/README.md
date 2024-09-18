@@ -24,7 +24,7 @@ A imagem abaixo mostra a tabela que foi gerada dessa união.
 - Imagem: ![tabela integracao](../evidencias/fotos/tabela_integracao.png)
 
 
-Utilizando Apache Spark e AWS Glue para executei um job de tratamento de dados, para criar a camada refined [Job Layer Refined](../desafio/job_layer_refined.py).
+Utilizando Apache Spark e AWS Glue executei um job de tratamento de dados, para criar a camada refined [Job Layer Refined](../desafio/job_layer_refined.py).
 A imagem abaixo mostra os jobs no Glue.
 
 - Imagem: ![jobs](../evidencias/fotos/job_layer_refined.png)
