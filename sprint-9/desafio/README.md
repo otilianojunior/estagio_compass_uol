@@ -14,7 +14,7 @@ em todas as tabelas de dimensões, para consegui visualizar a origem do dado.
 - Imagem: ![CSV](../evidencias/fotos/tmdb_dados.png)
 
 
-Utilizando Apache Spark e AWS Glue para executei um job de integração de dados unindo os dados
+Utilizando Apache Spark e AWS Glue executei um job de integração de dados unindo os dados
 provinientes do csv e tmdb: [Job Integracão](../desafio/job_integracao.py).
 
 Ele foi responsável pela a união dos dados em uma unica tabela na camada trusted.
