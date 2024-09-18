@@ -108,7 +108,5 @@ As imagens relacionadas ao desafio estão organizadas na pasta [evidencias/fotos
 **Exercícios Resolvidos:**  
 Nesta sprint, não houve exercícios.
 
-### Certificados 🎓
-
-**Certificados:**  
+### Certificados 🎓 
 Nesta sprint, não houve cursos que geraram certificados.
